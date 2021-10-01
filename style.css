@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	line-height: 1.6;
+	background: url('images/wallpaper.jpg') no-repeat;
+	background-size: 100% auto;
+}
+h1, h2, h3, h4, h5, h6 {margin: 0}
+
+section{
+	width: 100%;
+	height: 290vh;
+	background: rgba(0, 0, 0, 0.6);
+	padding-top: 50vh;
+}
+
+.main{
+	width: 60%;
+	margin: 0 auto;
+	background: rgb(175, 232, 247);
+	border-radius: 35px;
+	padding: 30px 10px 30px 10px;
+	font-family: 'Marck Script', cursive;
+	text-align: center;
+	font-size: 27px;
+}
+
+.title{
+	width: 60%;
+	margin: 0 auto;
+	animation: vihod 3s ease-in;
+}
+.hamster{
+	width: 80px;
+	display: block;
+	margin: 5px auto;
+}
+h1{
+	font-size: 70px;
+	color: #0c3946;
+	text-align: center;
+}
+img{
+	width: 550px;
+	transition: 0.2s linear;   
+}
+img:hover {
+	box-shadow:
+	  1px 1px #07bcee,
+	  2px 2px #07bcee,
+	  3px 3px #07bcee,
+	  4px 4px #07bcee,
+	  5px 5px #07bcee,
+	  6px 6px #07bcee,
+	  7px 7px #07bcee,
+	  8px 8px #07bcee,
+	  9px 9px #07bcee,
+	  10px 10px #07bcee,
+	  11px 11px #07bcee,
+	  12px 12px #07bcee;
+	-webkit-transform: translateX(-7px);
+	transform: translateX(-7px);
+
+ }
+@keyframes vihod{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
